@@ -2,7 +2,7 @@
 title:               dyon
 tagline:             'blog'
 description:         'myblog'
-url:                 https://noplin.github.io/dyon
+url:                 
 baseurl:             '/dyon'
 paginate:            5
 permalink:           /:title/
