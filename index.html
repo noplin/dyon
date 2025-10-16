@@ -17,8 +17,9 @@ title: Home
     </time>
 
     <div class="entry">
-      {{ post.excerpt }}
-    </div>
+  {{ post.excerpt | strip_html | truncatewords: 40 }}
+</div>
+
 
     <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
   </article>
