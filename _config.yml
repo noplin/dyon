@@ -5,7 +5,7 @@ description:         'myblog'
 url:                 
 baseurl:             '/dyon'
 paginate:            5
-permalink:           /:title/
+permalink:           /:title
 
 # About/contact
 author:
